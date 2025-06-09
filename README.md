@@ -100,4 +100,4 @@ Contribuições são bem-vindas! Abra uma _issue_ ou envie um _pull request_ com
 
 Rafael Carvalheira  
 ✉️ carvalheira.vargas@ime.eb.br  
-🔗 https://github.com/RafaelCarvalheira/ICQ
+🔗 https://github.com/RafaelCarvalheira
