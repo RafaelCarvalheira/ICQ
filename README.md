@@ -1,6 +1,6 @@
-# Trabalho de Computação Quântica: Algoritmo de Shor
+# Trabalho de Computação Quântica: Algoritmo de Grover
 
-Este repositório apresenta as implementações e resultados obtidos no desenvolvimento do **Algoritmo de Shor** para fatoração de inteiros em um computador quântico real da IBM. Além disso, inclui um estudo comparativo utilizando o **Algoritmo de Grover** em simulador, aplicado a problemas de busca não estruturada.
+Este repositório reúne as implementações e resultados obtidos no desenvolvimento do **Algoritmo de Grover** para busca de elementos em listas não ordenadas, comparando abordagens clássica e quântica em hardware real da IBM e em simulador.
 
 ---
 
@@ -16,90 +16,82 @@ Este repositório apresenta as implementações e resultados obtidos no desenvol
 ## 📂 Estrutura do Repositório
 
 - **`Codigo_classico.c`**  
-  Programa em C que implementa a busca clássica em dados desordenados (caso clássico), usado como referência de desempenho.
+  Implementação em C da busca clássica em dados desordenados, servindo como referência de desempenho.
 
 - **`codigoIBM.ipynb`**  
-  Notebook Jupyter com a implementação do **Algoritmo de Shor** rodado no hardware da IBM Quantum. Inclui:  
-  - Configuração do token IBM Quantum  
-  - Preparação do circuito quântico de fatoração  
-  - Coleta e análise dos resultados do experimento real
+  Notebook Jupyter com a execução do **Algoritmo de Grover** em hardware quântico da IBM. Inclui:
+  - Configuração do token IBM Quantum
+  - Construção do circuito quântico de busca
+  - Coleta e análise dos resultados obtidos no hardware real
 
 - **`grover_3_e_4.ipynb`**  
-  Notebook Jupyter com a implementação do **Algoritmo de Grover** em simulador quântico. Contém:  
-  - Cenários de 3 e 4 qubits  
-  - Extrapolação do problema até o ponto em que o simulador falha  
-  - Comparação dos tempos e taxas de sucesso
+  Notebook Jupyter com a implementação do **Algoritmo de Grover** em simulador quântico. Contém:
+  - Cenários de 3 e 4 qubits
+  - Extrapolação até o ponto de falha do simulador
+  - Comparação de tempos de execução e taxas de acerto
 
 ---
 
 ## 🚀 Pré-requisitos
 
-- **Git**  
-- **C Compiler** (gcc, clang ou similar)  
-- **Python 3.8+**  
-- **Qiskit ≥ 1.0**  
-- **Qiskit IBM Runtime** (`qiskit_ibm_runtime`)  
-- **Dependências Python**:  
+- **Git**
+- **Compilador C** (GCC, Clang ou similar)
+- **Python 3.8+**
+- **Qiskit ≥ 1.0**
+- **Qiskit IBM Runtime** (`qiskit_ibm_runtime`)
+- **Dependências Python**:
   ```bash
   pip install qiskit qiskit_ibm_runtime matplotlib numpy
-  ```  
-- **Jupyter Notebook / JupyterLab** (ou Google Colab)
+  ```
+- **Jupyter Notebook** ou **JupyterLab** (ou Google Colab)
 
 ---
 
 ## 🛠️ Instalação e Execução
 
-1. **Clone o repositório**  
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/SeuUsuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/RafaelCarvalheira/ICQ.git
+   cd ICQ
    ```
 
-2. **Compile e execute o código clássico**  
+2. Compile e execute o código clássico:
    ```bash
    gcc -o busca Codigo_classico.c
    ./busca
    ```
 
-3. **Abra e rode os notebooks**  
-   - Para o **Shor**:  
+3. Execute os notebooks:
+   - **Grover (IBM Quantum)**:
      ```bash
      jupyter lab codigoIBM.ipynb
-     ```  
-     Configure seu API token da IBM Quantum conforme instruções no início do notebook.
+     ```
+     Siga as instruções no notebook para configurar seu token IBM Quantum.
 
-   - Para o **Grover**:  
+   - **Grover (Simulador)**:
      ```bash
      jupyter lab grover_3_e_4.ipynb
-     ```  
-     Execute célula a célula e acompanhe a extrapolação até a falha do simulador.
+     ```
+     Execute célula a célula e observe a extrapolação até a falha do simulador.
 
 ---
 
 ## 📊 Resultados Esperados
 
-- **Busca Clássica**  
-  Crescimento de tempo linear em função do tamanho do dataset.
-
-- **Shor (IBM Quantum)**  
-  Demonstração prática de fatoração de pequenos inteiros; análise de ruído e fidelidade.
-
-- **Grover (Simulador)**  
-  Aceleração quadrática sobre o método clássico; identificação do limite de escala suportado pelo simulador.
+- **Busca Clássica**: tempo de execução linear em função do tamanho da lista.
+- **Grover (IBM Quantum)**: aceleração quântica demonstrada no hardware real, com análise de fidelidade.
+- **Grover (Simulador)**: aceleração quadrática versus o método clássico e levantamento do limite de escala do simulador.
 
 ---
 
 ## 🤝 Contribuições
 
-Contribuições, sugestões de melhoria e correções são muito bem-vindas!  
-1. Abra uma _issue_ descrevendo sua proposta.  
-2. Faça um _fork_ e submeta um _pull request_ com suas alterações.
+Contribuições são bem-vindas! Abra uma _issue_ ou envie um _pull request_ com sugestões.
 
 ---
-
 
 ## 📬 Contato
 
 Rafael Carvalheira  
-✉️ carvalheira.vargas@ime.eb.br
+✉️ carvalheira.vargas@ime.eb.br  
 🔗 https://github.com/RafaelCarvalheira/ICQ
