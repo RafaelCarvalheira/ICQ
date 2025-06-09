@@ -1,11 +1,15 @@
 # Trabalho de Computação Quântica: Algoritmo de Shor
 
-Este repositório reúne as implementações e experimentos realizados no escopo do trabalho de computação quântica sobre o **Algoritmo de Shor**, com um estudo comparativo extra utilizando o **Algoritmo de Grover** para problemas de busca não estruturada.
--**'Integrantes:'**
-  Luana Vieira de Alcantara Garcia
-  Marcos Henrique Yukio Suguita
-  Rafael Vargas Carvalheira
-  Ruan Pablo Rodrigues 
+Este repositório apresenta as implementações e resultados obtidos no desenvolvimento do **Algoritmo de Shor** para fatoração de inteiros em um computador quântico real da IBM. Além disso, inclui um estudo comparativo utilizando o **Algoritmo de Grover** em simulador, aplicado a problemas de busca não estruturada.
+
+---
+
+## 👥 Integrantes
+
+- **Luana Vieira de Alcântara Garcia**
+- **Marcos Henrique Yukio Suguita**
+- **Rafael Vargas Carvalheira**
+- **Ruan Pablo Rodrigues**
 
 ---
 
@@ -93,11 +97,6 @@ Contribuições, sugestões de melhoria e correções são muito bem-vindas!
 
 ---
 
-## 📄 Licença
-
-Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
 
 ## 📬 Contato
 
