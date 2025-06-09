@@ -1,11 +1,11 @@
 # Trabalho de Computação Quântica: Algoritmo de Shor
 
 Este repositório reúne as implementações e experimentos realizados no escopo do trabalho de computação quântica sobre o **Algoritmo de Shor**, com um estudo comparativo extra utilizando o **Algoritmo de Grover** para problemas de busca não estruturada.
-Integrantes:
-Luana Vieira de Alcantara Garcia
-Marcos Henrique Yukio Suguita
-Rafael Vargas Carvalheira
-Ruan Pablo Rodrigues 
+-**'Integrantes:'**
+  Luana Vieira de Alcantara Garcia
+  Marcos Henrique Yukio Suguita
+  Rafael Vargas Carvalheira
+  Ruan Pablo Rodrigues 
 
 ---
 
