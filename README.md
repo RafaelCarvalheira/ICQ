@@ -12,6 +12,12 @@ Este repositório reúne as implementações e resultados obtidos no desenvolvim
 - **Ruan Pablo Rodrigues**
 
 ---
+## 🎓 Professores
+
+- **Cel. Anderson Fernandes Pereira dos Santos**  
+- **Cap. Oscar Martins Wanderley Filho**
+
+---
 
 ## 📂 Estrutura do Repositório
 
